@@ -73,7 +73,7 @@ uvicorn api.main:app --reload
 
 ### Testing the API
 Open your web browser and navigate to:
-**http://127.0.0.1:8000/docs**
+**http://127.0.0.1:8000/docs#/Forecasting/forecast_state_forecast__state__get**
 
 This will open an interactive dashboard where you can test the endpoints:
 - **`GET /models`**: See which model performed best for each state.
